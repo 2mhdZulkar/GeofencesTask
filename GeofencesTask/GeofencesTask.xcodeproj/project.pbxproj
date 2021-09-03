@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847729C426E2BBCD000EC6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847729C326E2BBCD000EC6B0 /* AppDelegate.swift */; };
+		847729C626E2BBCD000EC6B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847729C526E2BBCD000EC6B0 /* SceneDelegate.swift */; };
+		847729C826E2BBCD000EC6B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847729C726E2BBCD000EC6B0 /* ViewController.swift */; };
+		847729CB26E2BBCD000EC6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847729C926E2BBCD000EC6B0 /* Main.storyboard */; };
+		847729CE26E2BBCD000EC6B0 /* GeofencesTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847729CC26E2BBCD000EC6B0 /* GeofencesTask.xcdatamodeld */; };
+		847729D026E2BBCF000EC6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847729CF26E2BBCF000EC6B0 /* Assets.xcassets */; };
+		847729D326E2BBCF000EC6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847729D126E2BBCF000EC6B0 /* LaunchScreen.storyboard */; };
+		847729DE26E2BBCF000EC6B0 /* GeofencesTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847729DD26E2BBCF000EC6B0 /* GeofencesTaskTests.swift */; };
+		847729E926E2BBCF000EC6B0 /* GeofencesTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847729E826E2BBCF000EC6B0 /* GeofencesTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847729DA26E2BBCF000EC6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847729B826E2BBCD000EC6B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847729BF26E2BBCD000EC6B0;
+			remoteInfo = GeofencesTask;
+		};
+		847729E526E2BBCF000EC6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847729B826E2BBCD000EC6B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847729BF26E2BBCD000EC6B0;
+			remoteInfo = GeofencesTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847729C026E2BBCD000EC6B0 /* GeofencesTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeofencesTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847729C326E2BBCD000EC6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847729C526E2BBCD000EC6B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		847729C726E2BBCD000EC6B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847729CA26E2BBCD000EC6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847729CD26E2BBCD000EC6B0 /* GeofencesTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeofencesTask.xcdatamodel; sourceTree = "<group>"; };
+		847729CF26E2BBCF000EC6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847729D226E2BBCF000EC6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847729D426E2BBCF000EC6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847729D926E2BBCF000EC6B0 /* GeofencesTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofencesTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847729DD26E2BBCF000EC6B0 /* GeofencesTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofencesTaskTests.swift; sourceTree = "<group>"; };
+		847729DF26E2BBCF000EC6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847729E426E2BBCF000EC6B0 /* GeofencesTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofencesTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847729E826E2BBCF000EC6B0 /* GeofencesTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofencesTaskUITests.swift; sourceTree = "<group>"; };
+		847729EA26E2BBCF000EC6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847729BD26E2BBCD000EC6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847729D626E2BBCF000EC6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847729E126E2BBCF000EC6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847729B726E2BBCD000EC6B0 = {
+			isa = PBXGroup;
+			children = (
+				847729C226E2BBCD000EC6B0 /* GeofencesTask */,
+				847729DC26E2BBCF000EC6B0 /* GeofencesTaskTests */,
+				847729E726E2BBCF000EC6B0 /* GeofencesTaskUITests */,
+				847729C126E2BBCD000EC6B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847729C126E2BBCD000EC6B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847729C026E2BBCD000EC6B0 /* GeofencesTask.app */,
+				847729D926E2BBCF000EC6B0 /* GeofencesTaskTests.xctest */,
+				847729E426E2BBCF000EC6B0 /* GeofencesTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847729C226E2BBCD000EC6B0 /* GeofencesTask */ = {
+			isa = PBXGroup;
+			children = (
+				847729C326E2BBCD000EC6B0 /* AppDelegate.swift */,
+				847729C526E2BBCD000EC6B0 /* SceneDelegate.swift */,
+				847729C726E2BBCD000EC6B0 /* ViewController.swift */,
+				847729C926E2BBCD000EC6B0 /* Main.storyboard */,
+				847729CF26E2BBCF000EC6B0 /* Assets.xcassets */,
+				847729D126E2BBCF000EC6B0 /* LaunchScreen.storyboard */,
+				847729D426E2BBCF000EC6B0 /* Info.plist */,
+				847729CC26E2BBCD000EC6B0 /* GeofencesTask.xcdatamodeld */,
+			);
+			path = GeofencesTask;
+			sourceTree = "<group>";
+		};
+		847729DC26E2BBCF000EC6B0 /* GeofencesTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				847729DD26E2BBCF000EC6B0 /* GeofencesTaskTests.swift */,
+				847729DF26E2BBCF000EC6B0 /* Info.plist */,
+			);
+			path = GeofencesTaskTests;
+			sourceTree = "<group>";
+		};
+		847729E726E2BBCF000EC6B0 /* GeofencesTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847729E826E2BBCF000EC6B0 /* GeofencesTaskUITests.swift */,
+				847729EA26E2BBCF000EC6B0 /* Info.plist */,
+			);
+			path = GeofencesTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847729BF26E2BBCD000EC6B0 /* GeofencesTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847729ED26E2BBCF000EC6B0 /* Build configuration list for PBXNativeTarget "GeofencesTask" */;
+			buildPhases = (
+				847729BC26E2BBCD000EC6B0 /* Sources */,
+				847729BD26E2BBCD000EC6B0 /* Frameworks */,
+				847729BE26E2BBCD000EC6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeofencesTask;
+			productName = GeofencesTask;
+			productReference = 847729C026E2BBCD000EC6B0 /* GeofencesTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847729D826E2BBCF000EC6B0 /* GeofencesTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847729F026E2BBCF000EC6B0 /* Build configuration list for PBXNativeTarget "GeofencesTaskTests" */;
+			buildPhases = (
+				847729D526E2BBCF000EC6B0 /* Sources */,
+				847729D626E2BBCF000EC6B0 /* Frameworks */,
+				847729D726E2BBCF000EC6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847729DB26E2BBCF000EC6B0 /* PBXTargetDependency */,
+			);
+			name = GeofencesTaskTests;
+			productName = GeofencesTaskTests;
+			productReference = 847729D926E2BBCF000EC6B0 /* GeofencesTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847729E326E2BBCF000EC6B0 /* GeofencesTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847729F326E2BBCF000EC6B0 /* Build configuration list for PBXNativeTarget "GeofencesTaskUITests" */;
+			buildPhases = (
+				847729E026E2BBCF000EC6B0 /* Sources */,
+				847729E126E2BBCF000EC6B0 /* Frameworks */,
+				847729E226E2BBCF000EC6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847729E626E2BBCF000EC6B0 /* PBXTargetDependency */,
+			);
+			name = GeofencesTaskUITests;
+			productName = GeofencesTaskUITests;
+			productReference = 847729E426E2BBCF000EC6B0 /* GeofencesTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847729B826E2BBCD000EC6B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					847729BF26E2BBCD000EC6B0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					847729D826E2BBCF000EC6B0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 847729BF26E2BBCD000EC6B0;
+					};
+					847729E326E2BBCF000EC6B0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 847729BF26E2BBCD000EC6B0;
+					};
+				};
+			};
+			buildConfigurationList = 847729BB26E2BBCD000EC6B0 /* Build configuration list for PBXProject "GeofencesTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847729B726E2BBCD000EC6B0;
+			productRefGroup = 847729C126E2BBCD000EC6B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847729BF26E2BBCD000EC6B0 /* GeofencesTask */,
+				847729D826E2BBCF000EC6B0 /* GeofencesTaskTests */,
+				847729E326E2BBCF000EC6B0 /* GeofencesTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847729BE26E2BBCD000EC6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847729D326E2BBCF000EC6B0 /* LaunchScreen.storyboard in Resources */,
+				847729D026E2BBCF000EC6B0 /* Assets.xcassets in Resources */,
+				847729CB26E2BBCD000EC6B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847729D726E2BBCF000EC6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847729E226E2BBCF000EC6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847729BC26E2BBCD000EC6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847729CE26E2BBCD000EC6B0 /* GeofencesTask.xcdatamodeld in Sources */,
+				847729C826E2BBCD000EC6B0 /* ViewController.swift in Sources */,
+				847729C426E2BBCD000EC6B0 /* AppDelegate.swift in Sources */,
+				847729C626E2BBCD000EC6B0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847729D526E2BBCF000EC6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847729DE26E2BBCF000EC6B0 /* GeofencesTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847729E026E2BBCF000EC6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847729E926E2BBCF000EC6B0 /* GeofencesTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847729DB26E2BBCF000EC6B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847729BF26E2BBCD000EC6B0 /* GeofencesTask */;
+			targetProxy = 847729DA26E2BBCF000EC6B0 /* PBXContainerItemProxy */;
+		};
+		847729E626E2BBCF000EC6B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847729BF26E2BBCD000EC6B0 /* GeofencesTask */;
+			targetProxy = 847729E526E2BBCF000EC6B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847729C926E2BBCD000EC6B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847729CA26E2BBCD000EC6B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847729D126E2BBCF000EC6B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847729D226E2BBCF000EC6B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847729EB26E2BBCF000EC6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847729EC26E2BBCF000EC6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847729EE26E2BBCF000EC6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6A3SNTSV;
+				INFOPLIST_FILE = GeofencesTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocationDemoZulkar.GeofencesTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847729EF26E2BBCF000EC6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6A3SNTSV;
+				INFOPLIST_FILE = GeofencesTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocationDemoZulkar.GeofencesTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		847729F126E2BBCF000EC6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6A3SNTSV;
+				INFOPLIST_FILE = GeofencesTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocationDemoZulkar.GeofencesTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeofencesTask.app/GeofencesTask";
+			};
+			name = Debug;
+		};
+		847729F226E2BBCF000EC6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6A3SNTSV;
+				INFOPLIST_FILE = GeofencesTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocationDemoZulkar.GeofencesTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeofencesTask.app/GeofencesTask";
+			};
+			name = Release;
+		};
+		847729F426E2BBCF000EC6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6A3SNTSV;
+				INFOPLIST_FILE = GeofencesTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocationDemoZulkar.GeofencesTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeofencesTask;
+			};
+			name = Debug;
+		};
+		847729F526E2BBCF000EC6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K6A3SNTSV;
+				INFOPLIST_FILE = GeofencesTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LocationDemoZulkar.GeofencesTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeofencesTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847729BB26E2BBCD000EC6B0 /* Build configuration list for PBXProject "GeofencesTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847729EB26E2BBCF000EC6B0 /* Debug */,
+				847729EC26E2BBCF000EC6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847729ED26E2BBCF000EC6B0 /* Build configuration list for PBXNativeTarget "GeofencesTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847729EE26E2BBCF000EC6B0 /* Debug */,
+				847729EF26E2BBCF000EC6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847729F026E2BBCF000EC6B0 /* Build configuration list for PBXNativeTarget "GeofencesTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847729F126E2BBCF000EC6B0 /* Debug */,
+				847729F226E2BBCF000EC6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847729F326E2BBCF000EC6B0 /* Build configuration list for PBXNativeTarget "GeofencesTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847729F426E2BBCF000EC6B0 /* Debug */,
+				847729F526E2BBCF000EC6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		847729CC26E2BBCD000EC6B0 /* GeofencesTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				847729CD26E2BBCD000EC6B0 /* GeofencesTask.xcdatamodel */,
+			);
+			currentVersion = 847729CD26E2BBCD000EC6B0 /* GeofencesTask.xcdatamodel */;
+			path = GeofencesTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 847729B826E2BBCD000EC6B0 /* Project object */;
+}
